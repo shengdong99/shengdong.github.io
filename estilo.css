@@ -1,0 +1,176 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(163, 243, 72);
+    flex-wrap: wrap;
+    margin:130px;
+    padding:2px;
+    
+    border: solid rgb(21, 61, 238);
+
+    background-image: url(https://img.freepik.com/vector-gratis/controles-videojuegos-estilo-neon-pared-ladrillo_24908-58916.jpg?size=338&ext=jpg);
+    
+}
+
+main {
+    background-color: rgb(173, 230, 225);
+    
+}
+
+
+
+main img{
+    float: left;
+    width: 10%;
+    margin: 10px;
+
+}
+
+header > section > h2, h1{
+    font-size: 80px;
+    color:rgb(6, 236, 95);
+    text-align: center ;
+    margin-bottom: 100px;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.s1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.s2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.s3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.s4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.s5{
+    margin-top: 10px;
+
+}
+p{   
+    line-height:30px;
+}
+.text-header{
+    border: 20px;
+    display: flex;
+    flex-wrap:wrap-reverse;
+
+}
+
+header{
+    height: 180px;
+    background-color: rgb(62, 180, 248);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkv9azNcE_ytdU2mJCKjBRipTK1MjiKU3Sw&usqp=CAU);
+}
+
+header > h1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    right:600px;
+    position:fixed;
+    top:1px;
+    background-color: rgb(255, 60, 0);
+}
+
+nav > a{
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+
+.footer-container{
+    background-color: black;
+    padding-bottom: 4rem 0 4rem 0;
+}
+
+.footer{
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3 ease-out;
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color:whitesmoke
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+form:invalid input[type="submit"] {
+    cursor: not-allowed;
+}
+
